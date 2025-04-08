@@ -142,5 +142,10 @@ namespace webapi.event_.Repositories
                 throw;
             }
         }
+
+        public List<ComentariosEventos> ListarSomentExibe(Guid id)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

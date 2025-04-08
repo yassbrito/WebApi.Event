@@ -1,3 +1,5 @@
+using Azure;
+using Azure.AI.ContentSafety;
 using Microsoft.Azure.CognitiveServices.ContentModerator;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
@@ -8,6 +10,21 @@ using webapi.event_.Interfaces;
 using webapi.event_.Repositories;
 
 var builder = WebApplication.CreateBuilder(args);
+
+
+//configuracao do Azure Content Safety
+var endpoint = builder.Configuration["AzureContentSafety:Endpoint"];
+var apiKey = builder.Configuration["AzureContentSafety:ApiKey"];
+
+if (string.IsNullOrEmpty(endpoint) || string.IsNullOrEmpty(apiKey))
+{
+    throw new InvalidOperationException("Azure Content Safety: Endpoint ou API key nao foram configurados");
+}
+
+//var client = new ContentSafetyClient(new Uri(endpoint), new AzureKeyCredential(apiKey));
+//builder.Services.AddSingleton(client);
+
+
 
 builder.Services // Acessa a coleção de serviços da aplicação (Dependency Injection)
     .AddControllers() // Adiciona suporte a controladores na API (MVC ou Web API)
@@ -30,6 +47,7 @@ builder.Services.AddScoped<ITiposEventosRepository, TiposEventosRepository>();
 builder.Services.AddScoped<IUsuarioRepository, UsuariosRepository>();
 builder.Services.AddScoped<IEventosRepository, EventosRepository>();
 builder.Services.AddScoped<IPresencasEventosRepository, PresencasEventosRepository>();
+builder.Services.AddScoped<IComentariosEventosRepository, ComentariosEventosRepository>();
 
 //Adiciona o serviço de Controllers
 builder.Services.AddControllers();
@@ -151,10 +169,10 @@ if (app.Environment.IsDevelopment())
 }
 
 //aplicar o serviço cognativo
-builder.Services.AddSingleton(provider => new ContentModeratorClient(new ApiKeyServiceClientCredentials("api key gerado no azure"))
-{
-    Endpoint = "adicionar o endpoint gerado no azure"
-});
+//builder.Services.AddSingleton(provider => new ContentModeratorClient(new ApiKeyServiceClientCredentials("api key gerado no azure"))
+//{
+   // Endpoint = "adicionar o endpoint gerado no azure"
+//});
 
 //Adiciona o Cors(política criada)
 app.UseCors("CorsPolicy");

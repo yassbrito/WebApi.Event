@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "C:\\Users\\48665566848\\Desktop\\webapi.event\u002B\\webapi.event\u002B\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{5A1C5DB5-04B8-4621-9D12-F0C05B25DDE5}|webapi.event\u002B.csproj|c:\\users\\48665566848\\desktop\\webapi.event\u002B\\webapi.event\u002B\\contexts\\context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A1C5DB5-04B8-4621-9D12-F0C05B25DDE5}|webapi.event\u002B.csproj|solutionrelative:contexts\\context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A1C5DB5-04B8-4621-9D12-F0C05B25DDE5}|webapi.event\u002B.csproj|c:\\users\\48665566848\\desktop\\webapi.event\u002B\\webapi.event\u002B\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{5A1C5DB5-04B8-4621-9D12-F0C05B25DDE5}|webapi.event\u002B.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{5A1C5DB5-04B8-4621-9D12-F0C05B25DDE5}|webapi.event\u002B.csproj|c:\\users\\48665566848\\desktop\\webapi.event\u002B\\webapi.event\u002B\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5A1C5DB5-04B8-4621-9D12-F0C05B25DDE5}|webapi.event\u002B.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -22,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -31,6 +39,32 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\48665566848\\Desktop\\webapi.event\u002B\\webapi.event\u002B\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\48665566848\\Desktop\\webapi.event\u002B\\webapi.event\u002B\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-05-22T16:48:00.508Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Context.cs",
+              "DocumentMoniker": "C:\\Users\\48665566848\\Desktop\\webapi.event\u002B\\webapi.event\u002B\\Contexts\\Context.cs",
+              "RelativeDocumentMoniker": "Contexts\\Context.cs",
+              "ToolTip": "C:\\Users\\48665566848\\Desktop\\webapi.event\u002B\\webapi.event\u002B\\Contexts\\Context.cs",
+              "RelativeToolTip": "Contexts\\Context.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAkwCIAAACWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T12:29:09.384Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "webapi.event\u002B.csproj",
               "DocumentMoniker": "C:\\Users\\48665566848\\Desktop\\webapi.event\u002B\\webapi.event\u002B\\webapi.event\u002B.csproj",
               "RelativeDocumentMoniker": "webapi.event\u002B.csproj",
@@ -42,7 +76,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "ComentariosEventosController.cs",
               "DocumentMoniker": "C:\\Users\\48665566848\\Desktop\\webapi.event\u002B\\webapi.event\u002B\\Controllers\\ComentariosEventosController.cs",
               "RelativeDocumentMoniker": "Controllers\\ComentariosEventosController.cs",
@@ -54,13 +88,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\48665566848\\Desktop\\webapi.event\u002B\\webapi.event\u002B\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\48665566848\\Desktop\\webapi.event\u002B\\webapi.event\u002B\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAA9AAAAAAAAAA==",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAABAAAAA9AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-01T18:51:32.187Z",
               "EditorCaption": ""
